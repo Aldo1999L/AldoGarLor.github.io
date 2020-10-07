@@ -1,0 +1,140 @@
+<!DOCTYPE html> <!--tipo de HTML a usar-->
+<html> <!--inicio del documento-->
+    <head> <!--inicio de la cabecera-->
+        <meta charset="UTF-8"/>
+        <title>Main mi CV</title>
+        <style>
+            table{width: 100%} 
+            thead{color: black}
+            tbody{color: black}
+            tfoot{color: black}
+        </style>
+        <link type="text/css" rel="stylesheet" media="screen" href="Estilos%20CV.css"/>
+    </head>
+    <body> <!--inicio del cuerpo-->
+        <div id="site">
+            <div id="header">
+                <h1 style="text-align: center"><b>Aldo Guillermo García Lortia</b></h1>
+                <img style= "margin-left: 400px; border: 10px solid#000000; border-radius: 150px" src="FOTOCV.JPG" alt="Texto alternativo si la foto no carga" align="center" height="200" width="200" title="FOTOCV"/>
+                <h2 style="text-align: center"><b><i>"Cogito ergo sum"</i></b></h2>
+                </div>
+            <div id="cuerpo">
+                <div id="cuerpo_left">
+                    <h3 style="margin-left: 50px; background-color: darkolivegreen; color: whitesmoke; margin-right: 20px">Sobre Mí</h3>
+                    <p style="margin-left: 50px; margin-right: 20px">Nací el 15 de octubre de 1999, en la CDMX. Vivo con mi mamá y mi hermano. En general, soy una persona a la que le gusta el orden y le da prioridad a sus responsabilidades.
+                    Mi propósito profesional es difundir mensajes e ideas que generen impacto en el espectador, a través del diseño y la producción de narrativas audiovisuales para el campo del cine y la televisión internacional.</p>
+                    <p style="margin-left: 50px; margin-right: 20px">A nivel más personal, soy fanático de DC Comics, el cine, el dibujo, la música clásica y de pasar tiempo con mis amigos.</p>
+                    <br>
+                    <iframe style="margin-left: 50px"width="430" height="315" src="https://www.youtube.com/embed/KFzXUqzvAFI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div id="cuerpo_right" >
+                    <h3 style="margin-left: 35px">Estudios</h3>
+                    <p style="margin-left: 35px; margin-right: 10px"><b>Universidad La Salle</b> / <span style="color:brown; text-align:right">CDMX, MEX (2016-2018)</span></p>
+                    <p style="margin-left: 35px; margin-right: 10px"><i>Escuela Preparatoria</i></p>
+                    <p style="margin-left: 35px"><b>Instituto Tecnológico de Monterrey</b> / <span style="color:brown; text-align:right">CDMX, MEX (2018- Presente)</span></p>
+                    <p style="margin-left: 35px"><i>Universidad, Lic. Comunicación y Medios Digitales</i></p>
+                    <hr style="margin-left: 35px; margin-right: 20px">
+                    <h3 style="margin-left: 35px">Experiencia</h3>
+                    <p style="margin-left: 35px"><b>UNIDOS Somos Más</b> / <span style="color:brown; text-align:right">CDMX, MEX (01/2018- Presente)</span></p>
+                    <p style="margin-left: 35px"><i>Dirección de contenidos</i></p>
+                    <p style="margin-left: 35px"><b>AIESEC</b> / <span style="color:brown; text-align:right">CDMX, MEX (04/2019- Presente)</span></p>
+                    <p style="margin-left: 35px"><i>Community Manager</i></p>
+                    <hr style="margin-left: 35px; margin-right: 20px">
+                    <h3 style="margin-left: 35px">Habilidades</h3>
+                    <p style="margin-left: 35px; margin-right: 20px">Pensamiento analítico / Creatividad / Proactividad / Trabajo en equipo / Gerencia de conflictos</p>
+                    <hr style="margin-left: 35px; margin-right: 20px">
+                    <h3 style="margin-left: 35px">Pasatiempos</h3>
+                    <p style="margin-left: 35px">Dibujar / Ver series y películas / Leer</p>
+                </div>
+                <h3 style="text-align: center">Mi horario Personal</h3>
+                <br>
+                 <div align="center"> <!--Centra la tabla--><!--Inicio del contenedor-->
+    <table border="2 px" bordercolor="darkgreen"><!--Inicio de la tabla, defino borde y color de la tabla-->
+        <thead style="background-color:darkgreen; color: whitesmoke"><!--Encabezados de la tabla-->
+            <tr align="center"><!--Centra el texto-->
+                <th width="150">Hora</th> <!--Hago más pequeña la columna de hora-->
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+                <th>Sábado</th>
+                <th>Domingo</th>
+            </tr>
+        </thead> <!--Se cierra encabezado-->
+        <tbody> <!--Se abre el cuerpo de la tabla-->
+            <tr align="center"><!--Centra el texto-->
+                <td style="background-color: palegreen">7:00 AM - 9:00 AM</td> <!--Le doy color de fondo a cada celda-->
+                <td colspan="2"style="background-color: lawngreen;">Curso 1</td><!--colspan y rowspan hacen que la celda se expanda por varias filas o columnas-->
+                <td rowspan="3"style="background-color: aqua;">Curso 3</td>
+                <td style="background-color:green">Curso 4</td>
+                <td colspan="2"style="background-color:mediumaquamarine">Curso 5</td>
+                <td rowspan="3"style="background-color: aqua;">Curso 3</td>
+            </tr>
+            <tr align="center"><!--Centra el texto-->
+                <td style="background-color: palegreen">9:00 AM - 11:00 AM</td>
+                <td>Libre</td>
+                <td style="background-color:green">Curso 4</td>
+                <td>Libre</td>
+                <td style="background-color:cadetblue">Curso 2</td>
+                <td style="background-color: lawngreen">Curso 1</td>
+            </tr>
+            <tr align="center"><!--Centra el texto-->
+                <td style="background-color: palegreen">11:00 AM - 1:00 PM</td>
+                <td style="background-color:mediumaquamarine">Curso 5</td>
+                <td>Libre</td>
+                <td style="background-color:cadetblue">Curso 2</td>
+                <td>Libre</td>
+                <td style="background-color: aqua">Curso 3</td>
+            </tr>
+            <tr align="center"><!--Centra el texto-->
+                <td style="background-color: palegreen">1:00 PM - 3:00 PM</td>
+                <td colspan="7"style="background-color:burlywood">Descanso</td>
+            </tr>
+            <tr align="center"><!--Centra el texto-->
+                <td style="background-color: palegreen">3:00 PM - 5:00 PM</td>
+                <td colspan="2"style="background-color:mediumaquamarine">Curso 5</td>
+                <td style="background-color:cadetblue">Curso 2</td>
+                <td rowspan="2"style="background-color:green">Curso 4</td>
+                <td rowspan="2"style="background-color: aqua">Curso 3</td>
+                <td rowspan="2"style="background-color:green">Curso 4</td>
+                <td rowspan="2"style="background-color:green">Curso 4</td>
+            </tr>
+            <tr align="center"><!--Centra el texto-->
+                <td style="background-color: palegreen">5:00 PM - 7:00 PM</td>
+                <td style="background-color: aqua">Curso 3</td>
+                <td>Libre</td>
+                <td style="background-color: lawngreen">Curso 1</td>
+            </tr>
+            <tr align="center"><!--Centra el texto-->
+                <td style="background-color: palegreen">7:00 PM - 9:00 PM</td>
+                <td colspan="7"style="background-color:burlywood">Fin de Jornada</td>
+            </tr>   
+        </tbody> <!--fin del cuerpo de la tabla-->
+        </table> <!--fin de la tabla-->
+    </div> <!--fin del contenedor-->
+            </div>
+            <div id="footer">
+            <div id="footer_left">
+            <h3 style="margin-left: 50px; background-color: darkolivegreen; color: whitesmoke; margin-right: 20px">Información de Contacto</h3>
+             <img style="margin-left: 50px"src="MAIL.png" alt="Texto alternativo si la foto no carga" align="center" height="40" width="50" title="Aldo mail"/>
+            <a href="https://www.google.com/intl/es-419/gmail/about/#" target="_blank">aldoggl@gmail.com</a>
+            <p></p>
+            <img style="margin-left: 50px"src="FB.png" alt="Texto alternativo si la foto no carga" align="center" height="50" width="50" title="Aldo FB"/>
+            <a href="https://es-la.facebook.com/" target="_blank">Aldo García</a>
+            <p></p>
+            <img style="margin-left: 50px"src="MAP.png" alt="Texto alternativo si la foto no carga" align="center" height="50" width="50" title="Aldo loc"/>
+            <a href="https://www.google.com/maps/place/Cd.+de+M%C3%A9xico/@19.3114807,-99.371839,9.59z/data=!4m5!3m4!1s0x85ce0036b1352927:0xdefd9e4ee8d18a5b!8m2!3d19.2464696!4d-99.1013498" target="_blank">CDMX, MEX</a>
+            <p></p>
+            <img style="margin-left: 50px"src="TEL.png" alt="Texto alternativo si la foto no carga" align="center" height="50" width="50" title="Aldo TEL"/> 5531135548
+                </div>
+                <div id="footer_right">
+                <hr style="margin-top: 200px; margin-left: 35px; margin-right: 20px">
+                <p style="margin-left: 35px; margin-right: 20px"><i>Copyright (c) 2020. Aldo García. Todos los derechos reservados.</i></p>
+                <p style="margin-left: 35px; margin-right: 20px"><i>Este producto está protegido por Copyright y distribuido bajo licencias que restringen su copia, distroibución y descompilación.</i></p>
+                </div>
+                
+            </div>
+        </div>
+    </body>
+</html> <!--fin del documento-->

@@ -1,0 +1,48 @@
+#site{
+    width: 1000px;
+    height: 800px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-bottom: 0;
+    margin-right: auto;
+    background-color: #666;
+}
+#header{
+    width: 1000px;
+    height: 360px;
+    background-color:azure;
+}
+#cuerpo{
+    width: 1000px;
+    height: 950px;
+    background-color:azure;
+}
+#footer{
+    width: 1000px;
+    height: 320px;
+    background-color:aquamarine;
+}
+#cuerpo_left{
+    width: 500px;
+    height: 650px;
+    float: left;
+    background-color:aquamarine;
+}
+#cuerpo_right{
+    width: 500px;
+    height: 650px;
+    float: right;
+    background-color:aquamarine;
+}
+#footer_left{
+    width: 500px;
+    height: 320px;
+    background-color:aquamarine;
+    float: left;
+}
+#footer_right{
+    width: 500px;
+    height: 320px;
+    background-color:aquamarine;
+    float:right
+}
